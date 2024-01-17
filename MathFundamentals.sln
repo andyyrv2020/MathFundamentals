@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculations", "MatrixCalculations\MatrixCalculations.csproj", "{57F4A106-4865-4FD0-90B3-A500D65AA8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixCalculations", "MatrixCalculations\MatrixCalculations.csproj", "{57F4A106-4865-4FD0-90B3-A500D65AA8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{43FB75FA-5429-4213-9479-4EF12CC99B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{57F4A106-4865-4FD0-90B3-A500D65AA8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F4A106-4865-4FD0-90B3-A500D65AA8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F4A106-4865-4FD0-90B3-A500D65AA8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FB75FA-5429-4213-9479-4EF12CC99B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FB75FA-5429-4213-9479-4EF12CC99B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FB75FA-5429-4213-9479-4EF12CC99B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FB75FA-5429-4213-9479-4EF12CC99B23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
