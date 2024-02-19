@@ -1,20 +1,29 @@
-﻿using System;
+﻿
+Console.WriteLine("1. 10 to X");
+Console.WriteLine("2. X to 10");
 
-public class HexToDecimalConverter
+var type = Console.ReadLine();
+
+if (type == "1")
 {
-    public static int ConvertHexToDecimal(string hexValue)
-    {
-        int decimalValue = Convert.ToInt32(hexValue, 16);
-        return decimalValue;
-    }
+    Console.WriteLine("Pls enter num: ");
+    int number = int.Parse(Console.ReadLine());
+    Console.WriteLine("Pls enter num sys");
+    int numSys = int.Parse(Console.ReadLine());
+    var answer = Convert.ToString(number, numSys);
+    Console.WriteLine(answer);
+}
+else if (type == "2")
+{
+    Console.WriteLine("Pls enter num: ");
+    string number = Console.ReadLine();
+    Console.WriteLine("Pls enter num sys");
+    int numSys = int.Parse(Console.ReadLine());
+    int answer = Convert.ToInt32(number, numSys);
+    Console.WriteLine(answer);
 }
 
-class Program
+else
 {
-    static void Main()
-    {
-        string hexNumber = Console.ReadLine();
-        int decimalNumber = HexToDecimalConverter.ConvertHexToDecimal(hexNumber);
-        Console.WriteLine($"Hexadecimal: {hexNumber} -> Decimal: {decimalNumber}");
-    }
+    Console.WriteLine("Wrong number");
 }
