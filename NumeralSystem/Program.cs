@@ -8,7 +8,7 @@ if (type == "1")
 {
     Console.WriteLine("Pls enter num: ");
     int number = int.Parse(Console.ReadLine());
-    Console.WriteLine("Pls enter num sys");
+    Console.WriteLine("Pls enter num sys: ");
     int numSys = int.Parse(Console.ReadLine());
     var answer = Convert.ToString(number, numSys);
     Console.WriteLine(answer);
