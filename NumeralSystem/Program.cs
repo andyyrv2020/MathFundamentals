@@ -17,7 +17,7 @@ else if (type == "2")
 {
     Console.WriteLine("Pls enter num: ");
     string number = Console.ReadLine();
-    Console.WriteLine("Pls enter num sys");
+    Console.WriteLine("Pls enter num sys: ");
     int numSys = int.Parse(Console.ReadLine());
     int answer = Convert.ToInt32(number, numSys);
     Console.WriteLine(answer);

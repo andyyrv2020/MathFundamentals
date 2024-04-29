@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixCalculations", "Matri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{43FB75FA-5429-4213-9479-4EF12CC99B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystem", "NumeralSystem\NumeralSystem.csproj", "{975EAF86-A7A2-44D7-8EEF-2A52D19CFFFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumeralSystem", "NumeralSystem\NumeralSystem.csproj", "{975EAF86-A7A2-44D7-8EEF-2A52D19CFFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinatoricsOperations", "CombinatoricsOperations\CombinatoricsOperations.csproj", "{49FEFD05-577D-4439-8435-3165CBE6413F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{975EAF86-A7A2-44D7-8EEF-2A52D19CFFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{975EAF86-A7A2-44D7-8EEF-2A52D19CFFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{975EAF86-A7A2-44D7-8EEF-2A52D19CFFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FEFD05-577D-4439-8435-3165CBE6413F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FEFD05-577D-4439-8435-3165CBE6413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FEFD05-577D-4439-8435-3165CBE6413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FEFD05-577D-4439-8435-3165CBE6413F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
