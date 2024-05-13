@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumeralSystem", "NumeralSystem\NumeralSystem.csproj", "{975EAF86-A7A2-44D7-8EEF-2A52D19CFFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinatoricsOperations", "CombinatoricsOperations\CombinatoricsOperations.csproj", "{49FEFD05-577D-4439-8435-3165CBE6413F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinatoricsOperations", "CombinatoricsOperations\CombinatoricsOperations.csproj", "{49FEFD05-577D-4439-8435-3165CBE6413F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Probability", "Probability\Probability.csproj", "{DFC42DA8-A3A3-4464-99A7-C53F8261A372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbabilityDice", "ProbabilityDice\ProbabilityDice.csproj", "{3BF5E555-A9E2-45CD-9918-88D36D0BA9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbabilityDiceCount", "ProbabilityDiceCount\ProbabilityDiceCount.csproj", "{75ADAE64-8BB2-463A-8E78-0B2DAAC9F6E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{49FEFD05-577D-4439-8435-3165CBE6413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49FEFD05-577D-4439-8435-3165CBE6413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49FEFD05-577D-4439-8435-3165CBE6413F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC42DA8-A3A3-4464-99A7-C53F8261A372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC42DA8-A3A3-4464-99A7-C53F8261A372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC42DA8-A3A3-4464-99A7-C53F8261A372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC42DA8-A3A3-4464-99A7-C53F8261A372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF5E555-A9E2-45CD-9918-88D36D0BA9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF5E555-A9E2-45CD-9918-88D36D0BA9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF5E555-A9E2-45CD-9918-88D36D0BA9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF5E555-A9E2-45CD-9918-88D36D0BA9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ADAE64-8BB2-463A-8E78-0B2DAAC9F6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ADAE64-8BB2-463A-8E78-0B2DAAC9F6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ADAE64-8BB2-463A-8E78-0B2DAAC9F6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ADAE64-8BB2-463A-8E78-0B2DAAC9F6E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
